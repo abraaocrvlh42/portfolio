@@ -103,3 +103,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Section */
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+}
+
+.section_subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section_title, .section_subtitle {
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
