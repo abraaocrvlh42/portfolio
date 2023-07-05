@@ -1,4 +1,6 @@
 // Script for my Portfolio
+//
+// Globla variables
 const navMenu = document.getElementById('nav-menu')
 const navToggle = document.getElementById('nav-toggle')
 const navClose = document.getElementById('nav-close')
