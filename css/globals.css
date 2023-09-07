@@ -1,3 +1,6 @@
+/* Imports */
+@import url('./user.css');
+
 /* Variables */
 :root {
   --primary: #334155;
@@ -29,4 +32,21 @@ body {
   max-width: 1366px;
   padding: 0 24px;
   margin: 160px auto 100px;
+}
+
+/* style for Section */
+section {
+  height: 400px;
+}
+
+/* Style for .projects */
+.projects {
+  grid-column: 1 / 3;
+}
+
+/* Style for .card */
+.card {
+  border-radius: 12px;
+  background: var(--background-card);
+  box-shadow: var(--shadow-card);
 }
