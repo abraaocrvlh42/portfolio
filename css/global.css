@@ -1,12 +1,12 @@
+/* Imports */
+@import url('./user.css');
+
 /* Reset css */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Imports */
-@import url('./user.css');
 
 /* Variables */
 :root {
