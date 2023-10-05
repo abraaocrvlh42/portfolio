@@ -42,11 +42,6 @@ body {
   margin: 160px auto 100px;
 }
 
-/* style for Section */
-section {
-  height: 400px;
-}
-
 /* Style for .projects */
 .projects {
   grid-column: 1 / 3;
