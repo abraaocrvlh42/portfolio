@@ -2,6 +2,7 @@
 @import url('./user.css');
 @import url('./social.css');
 @import url('./about.css');
+@import url('./projects.css');
 
 /* Reset css */
 * {
