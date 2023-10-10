@@ -54,3 +54,9 @@ body {
   background: var(--background-card);
   box-shadow: var(--shadow-card);
 }
+
+/* Style for .subtitle */
+.subtitle {
+  font-size: 28px;
+  font-weight: 600;
+}
