@@ -53,5 +53,10 @@
 }
 
 .project div span {
-  
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--secondary);
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: var(--background-badge);
 }
