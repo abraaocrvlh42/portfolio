@@ -13,7 +13,22 @@ const loadProjects = (projects) => {
     elementProjects.classList.add('project')
 
     // Get Images
-    
+    const elementPicture = document.createElement('picture')
+    const elementImg = document.createElement('img')
+
+    elementImg.setAttribute('src', project.image)
+
+    elementPicture.appendChild(elementImg)
+
+    // Get HTML tags
+    const elementStrong = document.createElement('strong')
+    elementStrong.innerText = project.name
+
+    const elementTags = document.createElement('div')
+    project.tags.forEach(tag => {
+      const elementTag = document.createElement('span')
+      elementTag.innerText = tag
+    })
   })
 
   console.log(elementProjects)
