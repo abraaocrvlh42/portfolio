@@ -48,7 +48,7 @@ const createProject = (project, index) => {
   
   elemProject.classList.add('project')
 
-  // 
+  // add cover image
   elemProject.appendChild(createImage(project.image, project.name))
 
   // add nome do projeto
