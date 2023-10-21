@@ -48,7 +48,7 @@ const createProject = (project, index) => {
   
   elemProject.classList.add('project')
 
-  // add imagem de capa
+  // 
   elemProject.appendChild(createImage(project.image, project.name))
 
   // add nome do projeto
