@@ -51,7 +51,7 @@ const createProject = (project, index) => {
   // add cover image
   elemProject.appendChild(createImage(project.image, project.name))
 
-  // add nome do projeto
+  // 
   elemProject.appendChild(createStrong(project.name))
 
   // add tags do projeto
