@@ -54,7 +54,7 @@ const createProject = (project, index) => {
   // add project name
   elemProject.appendChild(createStrong(project.name))
 
-  // add tags do projeto
+  // 
   elemProject.appendChild(createTags(project.tags))
 
   return elemProject
