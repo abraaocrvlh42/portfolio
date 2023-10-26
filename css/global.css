@@ -68,8 +68,8 @@ body {
 
 @media (max-width: 1080) {
   .app {
-    gap: 40px;
-    grid-template-columns: auto 1fr;
+    gap: 24px;
+    
     margin: 120px 0;
   }
 }
