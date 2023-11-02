@@ -71,3 +71,9 @@ body {
     gap: 24px;
   }
 }
+
+@media (max-width: 1080) {
+  .app {
+    gap: 24px;
+  }
+}
