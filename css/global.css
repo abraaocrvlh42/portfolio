@@ -72,7 +72,7 @@ body {
   }
 }
 
-@media (max-width: 1080) {
+@media (max-width: 780) {
   .app {
     gap: 24px;
   }
