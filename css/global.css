@@ -75,5 +75,7 @@ body {
 @media (max-width: 768) {
   .app {
     display: flex;
+    flex-direction: column;
+    margin: 40px 0;
   }
 }
