@@ -16,6 +16,9 @@
 
 		<!-- Load social icons -->
 		<script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+		<!-- Script AOS - Animações -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	</head>
 
 	<!-- Body -->
@@ -23,7 +26,7 @@
 		<!-- Div with global class -->
 		<div class="app">
 			<!-- Section for User -->
-			<section class="card user">
+			<section class="card user" class="card user" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">
 				<picture>
 					<img src="./assets/me.png" alt="me">
 				</picture>
@@ -57,7 +60,8 @@
 			</section>
 
 			<!-- Section for "About Me" -->
-			<section class="card about">
+			<section class="card about" class="card about" data-aos="fade-left" data-aos-duration="800"
+      data-aos-easing="ease-in-out">
 				<h2 class="subtitle">Um pouco sobre mim</h2>
 				<p>
 					Apaixonado pelo universo da computação, atualmente aprimorando meus conhecimentos e buscando ser um profissional melhor todos os dias, com muita dedicação e determinação.
@@ -71,13 +75,21 @@
 			</section>
 
 			<!-- Section for my projects -->
-			<section class="card projects">
+			<section class="card projects"  data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
 				<h2 class="subtitle">Projetos</h2>
 
 				<div id="project__content">
 					
 				</div>
 			</section>
+
 		</div>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<script>
+			AOS.init({ once: true })
+		</script>
+
 	</body>
 </html>
