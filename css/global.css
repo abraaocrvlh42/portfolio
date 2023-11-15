@@ -54,6 +54,8 @@ body {
   font-weight: 600;
 }
 
+
+/* responsiveness */
 @media(max-width: 1200px) {
   .app {
     gap: 40px;
