@@ -10,11 +10,5 @@
     "image": "./assets/todo_list.png",
     "tags": ["HTML", "CSS", "JavaScript", "Ruby", "Ruby on Rails"],
     "link": "https://github.com/abraaocrvlh42/todo_list"
-  },
-	{
-    "name": "",
-    "image": "",
-    "tags": ["", "", ""],
-    "link": ""
   }
 ]
