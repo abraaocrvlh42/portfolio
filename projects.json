@@ -1,8 +1,5 @@
 [
   {
-    
-  },
-  {
     "name": "Jogo da Memória - Rick and Morty",
     "image": "./assets/memory_game.png",
     "tags": ["HTML", "CSS", "JavaScript"],
